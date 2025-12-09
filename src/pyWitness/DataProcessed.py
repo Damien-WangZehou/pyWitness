@@ -300,6 +300,8 @@ class DataProcessed :
         Calculate confidence accuracy characteristic from data_pivot. Result stored in data_rates['cac']
         '''
 
+        # This is the suspicious place.
+
         baseRate = self.baseRate
 
         if self.lineupSize != 1 :                                                                           # LINEUP
